@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test output
+test-report.json
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Credentials (IMPORTANT!)
+*token*
+*secret*
+*credential*
+
+# ===== Solution (สำหรับอาจารย์เท่านั้น) =====
+solution/
+
+# ===== LaTeX auxiliary files =====
+# Lecture
+Lecture/*.aux
+Lecture/*.log
+Lecture/*.nav
+Lecture/*.out
+Lecture/*.snm
+Lecture/*.toc
+Lecture/*.vrb
+Lecture/*.synctex.gz
+Lecture/*.fdb_latexmk
+Lecture/*.fls
+
+# Slides
+Slides/*.aux
+Slides/*.log
+Slides/*.nav
+Slides/*.out
+Slides/*.snm
+Slides/*.toc
+Slides/*.vrb
+Slides/*.synctex.gz
+Slides/*.fdb_latexmk
+Slides/*.fls
+
+# ===== Quiz answers (สำหรับอาจารย์เท่านั้น) =====
+quiz/quiz-answers.md

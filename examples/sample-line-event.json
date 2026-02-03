@@ -1,0 +1,24 @@
+{
+  "destination": "xxxxxxxxx",
+  "events": [
+    {
+      "type": "message",
+      "message": {
+        "type": "text",
+        "id": "1234567890",
+        "text": "ราคาทอง"
+      },
+      "webhookEventId": "01ABCDEFG",
+      "deliveryContext": {
+        "isRedelivery": false
+      },
+      "timestamp": 1704067200000,
+      "source": {
+        "type": "user",
+        "userId": "U1234567890abcdef"
+      },
+      "replyToken": "abcdef1234567890",
+      "mode": "active"
+    }
+  ]
+}
